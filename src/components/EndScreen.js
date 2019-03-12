@@ -1,6 +1,6 @@
 import React from 'react';
 import Cookies from 'universal-cookie';
-// import "./EndScreen.scss";
+import "./EndScreen.scss";
 
 function EndScreen(props){
     const cookies = new Cookies();
