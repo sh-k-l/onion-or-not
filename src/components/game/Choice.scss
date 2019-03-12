@@ -1,0 +1,24 @@
+@import "../../assets/styles/variables";
+
+
+.choice{
+    background-color:$primary-color;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    font-size: 1.8em;
+    color:white;
+    flex:1;
+    border:1px solid rgba(0,0,0,0.1);    
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.choice:hover{
+    background-color:$secondary-color;
+}
+
+.choice p{
+    margin:0;
+    padding:50px;
+    height:100%;
+    box-sizing: border-box;
+}

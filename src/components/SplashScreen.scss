@@ -1,0 +1,22 @@
+@import "../assets/styles/variables";
+
+
+.splash-screen{
+    margin:0;
+    padding:0 0 0 0;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.splash-screen-content{
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+.splash-screen button{
+   
+}
