@@ -1,13 +1,13 @@
 {
-  "main.css": "/onion-or-not/static/css/main.c134d751.chunk.css",
-  "main.js": "/onion-or-not/static/js/main.40df25de.chunk.js",
-  "main.js.map": "/onion-or-not/static/js/main.40df25de.chunk.js.map",
+  "main.css": "/onion-or-not/static/css/main.65a42951.chunk.css",
+  "main.js": "/onion-or-not/static/js/main.5710f7c1.chunk.js",
+  "main.js.map": "/onion-or-not/static/js/main.5710f7c1.chunk.js.map",
   "runtime~main.js": "/onion-or-not/static/js/runtime~main.72eea6ae.js",
   "runtime~main.js.map": "/onion-or-not/static/js/runtime~main.72eea6ae.js.map",
   "static/js/2.1b58a59c.chunk.js": "/onion-or-not/static/js/2.1b58a59c.chunk.js",
   "static/js/2.1b58a59c.chunk.js.map": "/onion-or-not/static/js/2.1b58a59c.chunk.js.map",
   "index.html": "/onion-or-not/index.html",
-  "precache-manifest.380adf71c786bb699bf7b31d9f7ec2a1.js": "/onion-or-not/precache-manifest.380adf71c786bb699bf7b31d9f7ec2a1.js",
+  "precache-manifest.2ae9e38f628cf0a1a5231626778b54d1.js": "/onion-or-not/precache-manifest.2ae9e38f628cf0a1a5231626778b54d1.js",
   "service-worker.js": "/onion-or-not/service-worker.js",
-  "static/css/main.c134d751.chunk.css.map": "/onion-or-not/static/css/main.c134d751.chunk.css.map"
+  "static/css/main.65a42951.chunk.css.map": "/onion-or-not/static/css/main.65a42951.chunk.css.map"
 }
