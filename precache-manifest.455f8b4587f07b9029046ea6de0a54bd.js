@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/onion-or-not/static/css/main.332553f5.chunk.css"
   },
   {
-    "revision": "d62a7da3b0e9ffe69720dd8c413d3c19",
+    "revision": "a20fae6b07610240408a8b079ac21fbf",
     "url": "/onion-or-not/index.html"
   }
 ];
