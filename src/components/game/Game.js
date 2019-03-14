@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 import LoadingScreen from "../LoadingScreen";
 import EndScreen from "../EndScreen";
 import Round from "./Round";
@@ -81,12 +80,35 @@ class Game extends Component{
     }
 
     render(){
-        if(!this.state.rounds[this.state.currentScore]) return <LoadingScreen/>;
-        if(this.state.endGame) return <EndScreen topScore={this.props.topScore} score={this.state.currentScore} click={this.restartHandler}/>;
+        
+        // if(this.state.endGame) return (
+        //     <EndScreen 
+        //         rounds={this.state.rounds} 
+        //         topScore={this.props.topScore} 
+        //         score={this.state.currentScore} 
+        //         click={this.restartHandler}
+        //     />
+        // );
+
+        if(this.state.endGame) return (
+            <EndScreen 
+                rounds={this.state.rounds} 
+                topScore={this.props.topScore} 
+                score={this.state.currentScore} 
+                click={this.restartHandler}
+            />
+        );
+
+
         return (
             <div className="game">
                 <p className="score">Score: {this.state.currentScore}</p>
-                <Round answerHandler={this.handleAnswer} data={this.state.rounds[this.state.currentScore]}/>
+                {!this.state.rounds[this.state.currentScore] ? 
+                    <LoadingScreen/> : 
+                    <Round 
+                        answerHandler={this.handleAnswer} 
+                        data={this.state.rounds[this.state.currentScore]}
+                    />}                
             </div>
         );
     }

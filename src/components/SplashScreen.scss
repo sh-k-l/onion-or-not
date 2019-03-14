@@ -9,14 +9,26 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    flex-direction: column;   
+    flex-direction: column;  
+    
+    background-color: $primary-color;
+    color:white;
 }
 
 .splash-screen-content{
     text-align: center;
-    margin-bottom: 20vh;
+    padding-bottom: 9em;
 }
 
-.splash-screen button{
-   
+.info{
+    font-family: "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    text-align: left;
+    max-width: 350px;
+}
+
+.info a{
+    color:white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
 }

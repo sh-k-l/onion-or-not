@@ -11,9 +11,11 @@ function SplashScreen(props){
                 <button onClick={props.click}>GO!</button>
                 <div className="info">
                     <p>How to play:</p>
-                    <p>The game gets two random headlines, one from <a href="www.reddit.com/r/nottheonion">/r/nottheonion</a> and one from <a href="www.reddit.com/r/theonion">/r/theonion</a>.</p>
-                    <p>You need to decide which is the real headline (the post from <a href="www.reddit.com/r/nottheonion">/r/nottheonion</a>)</p>
-                    <p>How many can you get in a row?</p>
+                    <ul>
+                        <li>The game gets two random headlines, one from <a href="http://www.reddit.com/r/nottheonion">/r/nottheonion</a> and one from <a href="www.reddit.com/r/theonion">/r/theonion</a>.</li>
+                        <li>You need to decide which is the real headline (the post from <a href="http://www.reddit.com/r/nottheonion">/r/nottheonion</a>).</li>
+                        <li>How many can you get in a row?</li>
+                    </ul>
                 </div>
             </div>
         </div>
