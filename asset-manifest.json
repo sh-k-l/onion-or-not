@@ -1,5 +1,5 @@
 {
-  "main.css": "/onion-or-not/static/css/main.332553f5.chunk.css",
+  "main.css": "/onion-or-not/static/css/main.c134d751.chunk.css",
   "main.js": "/onion-or-not/static/js/main.40df25de.chunk.js",
   "main.js.map": "/onion-or-not/static/js/main.40df25de.chunk.js.map",
   "runtime~main.js": "/onion-or-not/static/js/runtime~main.72eea6ae.js",
@@ -7,7 +7,7 @@
   "static/js/2.1b58a59c.chunk.js": "/onion-or-not/static/js/2.1b58a59c.chunk.js",
   "static/js/2.1b58a59c.chunk.js.map": "/onion-or-not/static/js/2.1b58a59c.chunk.js.map",
   "index.html": "/onion-or-not/index.html",
-  "precache-manifest.455f8b4587f07b9029046ea6de0a54bd.js": "/onion-or-not/precache-manifest.455f8b4587f07b9029046ea6de0a54bd.js",
+  "precache-manifest.380adf71c786bb699bf7b31d9f7ec2a1.js": "/onion-or-not/precache-manifest.380adf71c786bb699bf7b31d9f7ec2a1.js",
   "service-worker.js": "/onion-or-not/service-worker.js",
-  "static/css/main.332553f5.chunk.css.map": "/onion-or-not/static/css/main.332553f5.chunk.css.map"
+  "static/css/main.c134d751.chunk.css.map": "/onion-or-not/static/css/main.c134d751.chunk.css.map"
 }
