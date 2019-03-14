@@ -17,7 +17,7 @@
 
 .splash-screen-content{
     text-align: center;
-    padding-bottom: 9em;
+    padding-bottom: 5em;
 }
 
 .info{
@@ -25,10 +25,18 @@
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     text-align: left;
-    max-width: 350px;
+    max-width: 318px;
+}
+
+.info p{
+    margin-left:1em;
 }
 
 .info a{
     color:white;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+}
+
+.info li{
+    margin-top:1em;
 }
