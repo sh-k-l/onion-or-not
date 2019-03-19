@@ -3,7 +3,7 @@ import Choice from "./Choice";
 
 import "./Round.scss";
 
-function Round(props){
+const Round = (props) => {
     if(Math.random() >= 0.5){
         return(
             <div className="round">

@@ -3,7 +3,7 @@ import Cookies from 'universal-cookie';
 import "./EndScreen.scss";
 import Review from "./Review";
 
-function EndScreen(props){
+const EndScreen = (props) => {
     const cookies = new Cookies();
     let topScore = cookies.get("oonTopScore") || 0;
     if(topScore < props.score){

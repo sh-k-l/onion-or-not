@@ -1,11 +1,11 @@
 import React from 'react';
-import "./SplashScreen.scss";
+import "./IntroScreen.scss";
 
-function SplashScreen(props){
+function IntroScreen(props){
     
     return(
-        <div className="splash-screen">
-            <div className="splash-screen-content">
+        <div className="intro-screen">
+            <div className="intro-screen-content">
                 <h2>Onion Or Not</h2>
                 <p>Your high score: {props.topScore}</p>
                 <button onClick={props.click}>GO!</button>
@@ -22,4 +22,4 @@ function SplashScreen(props){
     );
 }
 
-export default SplashScreen;
+export default IntroScreen;

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Cookies from 'universal-cookie';
 
-import SplashScreen from "./SplashScreen";
+import IntroScreen from "./IntroScreen";
 import Game from "./game/Game";
 
 
@@ -10,18 +10,18 @@ class Start extends Component{
         const cookies = new Cookies();
         super(props);
         this.state = {
-            renderSplashScreen: true,
+            renderIntroScreen: true,
             topScore: cookies.get("oonTopScore") || 0
         };
     }
 
     handleStart = () => {
-        this.setState({renderSplashScreen: false});
+        this.setState({renderIntroScreen: false});
     }
 
     render(){
-        if(this.state.renderSplashScreen){
-            return <SplashScreen click={this.handleStart} topScore={this.state.topScore}/>;
+        if(this.state.renderIntroScreen){
+            return <IntroScreen click={this.handleStart} topScore={this.state.topScore}/>;
         }
         return <Game topScore={this.state.topScore}/>;        
     }
