@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/onion-or-not/static/js/runtime~main.72eea6ae.js"
   },
   {
-    "revision": "b88d89e0dc5c0842b4b2",
-    "url": "/onion-or-not/static/js/main.ca00258b.chunk.js"
+    "revision": "677668dff6f1bf217ace",
+    "url": "/onion-or-not/static/js/main.a7e3cc5c.chunk.js"
   },
   {
     "revision": "468442e786e3eba21319",
     "url": "/onion-or-not/static/js/2.1b58a59c.chunk.js"
   },
   {
-    "revision": "b88d89e0dc5c0842b4b2",
-    "url": "/onion-or-not/static/css/main.35e1199c.chunk.css"
+    "revision": "677668dff6f1bf217ace",
+    "url": "/onion-or-not/static/css/main.d9978aab.chunk.css"
   },
   {
-    "revision": "828dbcda45fdea3d3ddb154893be94b2",
+    "revision": "67ac53fa868ccc87b3c02d783f8081c0",
     "url": "/onion-or-not/index.html"
   }
 ];
