@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/onion-or-not/precache-manifest.d65c19b3b7e275a8b50c4cfbed1e80b5.js"
+  "/onion-or-not/precache-manifest.6f251763265ac08399c110c8151cc955.js"
 );
 
 workbox.clientsClaim();
