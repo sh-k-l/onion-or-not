@@ -17,8 +17,8 @@ function Review(props){
             <table> 
                 <thead>
                     <tr>
-                        <th>/r/nottheonion <p>(real headline)</p></th>
-                        <th>/r/theonion <p>(false headline)</p></th>
+                        <th className="green-text">Real Headlines<p>(/r/nottheonion)</p></th>
+                        <th className="red-text">Fake Headlines<p>(/r/theonion)</p></th>
                     </tr>
                 </thead>          
                 <tbody>
